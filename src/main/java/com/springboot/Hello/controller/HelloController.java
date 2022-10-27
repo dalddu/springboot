@@ -3,7 +3,6 @@ package com.springboot.Hello.controller;
 import org.apache.coyote.Request;
 import org.springframework.web.bind.annotation.*;
 
-
 @RestController("/api/v1/get-api") // dispatcherServlet이 매핑해줄 Controller를 등록
 public class HelloController {
 
